@@ -1,2 +1,2 @@
 # tic-tac-toe
-my implementation 
+Tic-Tac-Toe game with random playing logic
