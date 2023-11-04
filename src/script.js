@@ -2,15 +2,15 @@ const matrix = [];
 
 let clickable;
 
-function engine(a, b, side) {
+const engine = (a, b, side) =>{
     return matrix[a][b] == side ? true : false;
 }
 
-function win(side) {
+const win = (side) =>{
     dialogWindow(`${side} has won`);
 }
 
-function restart() {
+const restart = () =>{
     const tbody = document.querySelector('tbody');
     tbody.remove();
 
@@ -24,7 +24,7 @@ function restart() {
     install();
 }
 
-function dialogWindow(phrase) {
+const dialogWindow = (phrase) =>{
     const div = document.createElement('div');
     const span = document.createElement('span');
     const button = document.createElement('button');
@@ -39,7 +39,7 @@ function dialogWindow(phrase) {
     document.body.appendChild(div);
 }
 
-function checkForCats() {
+const checkForCats = () =>{
     let cats = 0;
     for (let row of matrix) {
         cats += row.includes(0) ? 1 : 0;  
@@ -53,7 +53,7 @@ function checkForCats() {
     }
 }
 
-function checkScores(scores, side) {
+const checkScores = (scores, side) =>{
     if (scores < 3) {
         return 1;
     } else {
@@ -62,7 +62,7 @@ function checkScores(scores, side) {
     }
 }
  
-function score(i, j, side) {
+const score = (i, j, side) =>{
     let scores = 0;
     let a = i;
     let b = j;
