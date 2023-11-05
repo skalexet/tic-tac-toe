@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "plain",
   "main": "script.js",
-  "type": "module",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +21,10 @@
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-terser": "^2.1.0"
   },
   "dependencies": {
     "express": "^4.18.2"

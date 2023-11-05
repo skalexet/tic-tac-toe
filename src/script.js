@@ -1,4 +1,3 @@
-console.log('scritp.js starts...');
 const matrix = [];
 
 let clickable;
