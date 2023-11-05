@@ -21,7 +21,8 @@
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",
-    "@babel/preset-env": "^7.23.2"
+    "@babel/preset-env": "^7.23.2",
+    "gulp": "^4.0.2"
   },
   "dependencies": {
     "express": "^4.18.2"
