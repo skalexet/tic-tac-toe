@@ -1,11 +1,8 @@
-/** 
-  * In process... 
-  */
-// {
-//   "compilerOptions": {
-//     "outDir": "...",
-//     "allowJs": true,
-//     "target": "es5"
-//   },
-//   "include": ["..."]
-// }
+{
+  "files": ["src/main.ts"],
+  "compilerOptions": {
+    "lib": ["DOM", "ES2015", "ES2016"],
+    "noImplicitAny": true,
+    "target": "es5"
+  }
+}

@@ -1,5 +1,2 @@
-# Ignore TypeScript (temporary) #
-*.ts
-
 ## Folders
 node_modules
