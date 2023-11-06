@@ -1,7 +1,7 @@
 /**
  * @Notation
- * This logic was build very long time ago by very young developer in a purpose of learning.
- * Since now that version is updated in terms of observation of basic migration to typescript 
+ * This logic was build very a long time ago by very young developer in a purpose of learning.
+ * Since now the version is updated in terms of observation of a basic migration to typescript 
  * from javascript. Entire logic still remains the same which seems to be very rough and random
  * styled using functional programing. If you find something very inapropriate in this 
  * code please feel free to criticize and suggest more conventional solutions.
