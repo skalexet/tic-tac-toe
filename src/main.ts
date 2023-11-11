@@ -1,6 +1,6 @@
 /**
  * @Notation
- * This logic was build very a long time ago by very young developer in a purpose of learning.
+ * This logic was build a very long time ago by a very young developer in a purpose of learning.
  * Since now the version is updated in terms of observation of a basic migration to typescript 
  * from javascript. Entire logic still remains the same which seems to be very rough and random
  * styled using functional programing. If you find something very inapropriate in this 
