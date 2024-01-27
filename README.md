@@ -1,7 +1,7 @@
 # tic-tac-toe
 Tic-Tac-Toe game with random playing logic
 
-Hello my fellow colleges!
+Hello my fellow colleagues!
 This web application was build yonks ago
 using plainest javascript by young beginner and now as an instance
 for exploring some basics of migration to typescript I'd describe this process like a fun thing!
