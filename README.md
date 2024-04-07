@@ -1,5 +1,5 @@
 # tic-tac-toe
-Tic-Tac-Toe game with random playing logic
+Tic-Tac-Toe game with a random playing logic
 
 Hello my fellow colleagues!
 This web application was build yonks ago
